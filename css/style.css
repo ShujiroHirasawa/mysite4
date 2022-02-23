@@ -1,11 +1,23 @@
 @charset "UTF-8";
 
+.box{
+  display: inline-block;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .box1{
   width: 400px;
   height: 400px;
   background: #ff0000;
   margin: 0 auto;
 }
+
+
 @media screen and (max-width: 960px){
   .box1{
     width: 200px;
@@ -51,12 +63,7 @@
 }
 
 .box4{
-  overflow: hidden;
   text-align: center;
-}
-
-.box{
-  display: inline-block;
 }
 
 .box4-1{
@@ -89,6 +96,7 @@
 
 .box5{
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -147,6 +155,7 @@
   height: 300px;
   background:#00ff51;
   position: relative;
+  order: 1;
 }
 
 .box6-1 p{
@@ -160,6 +169,7 @@
   height: 300px;
   background:#d4ff00;
   position: relative;
+  order: 2;
 }
 
 .box6-2 p{
@@ -173,6 +183,7 @@
   height: 300px;
   background:#ff00e1;
   position: relative;
+  order: 3;
 }
 
 .box6-3 p{
@@ -207,18 +218,24 @@
 .box7-2{
   width: 300px;
   height: 300px;
-  background: #00ff51;
+  background: #0008ff;
   float: left;
+  display: none;
 }
 
 .box7-3{
   width: 300px;
   height: 300px;
-  background: #0008ff;
+  background: #00ff51;
+  float: left;
 }
 
 @media screen and (max-width: 960px){
   .box7-1{
-    visibility: hidden;
+    display: none;
+  }
+
+  .box7-2{
+    display: inline-block;
   }
 }
