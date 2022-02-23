@@ -8,10 +8,8 @@
 }
 @media screen and (max-width: 960px){
   .box1{
-  width: 200px;
-  height: 200px;
-  background: #ff0000;
-  margin: 0 auto;
+    width: 200px;
+    height: 200px;
   }
 }
 
@@ -24,10 +22,7 @@
 
 @media screen and (max-width: 960px){
   .box2{
-    width: 300px;
-    height: 300px;
     background:#007bff;
-    margin: 0 auto;
   }
 }
 
@@ -50,23 +45,9 @@
 }
 
 @media screen and (max-width: 960px){
-  .box3{
-    display: flex;
-    justify-content: center;
-   }
-   
-   .box3-1{
-     width: 300px;
-     height: 300px;
-     background:#0008ff;
-     margin-right: 50px;
-   }
-   
-   .box3-2{
-     width: 300px;
-     height: 300px;
-     background:#22ff00;
-   }
+  .box3-1{
+    margin-right: 50px;
+  }
 }
 
 .box4{
@@ -96,21 +77,12 @@
   .box4{
     text-align: left;
   }
-  
-  .box{
-    display: inline-block;
-  }
+
   .box4-1{
-    width: 300px;
-    height: 300px;
-    background:#ff0000;
     float: none;
   }
-  
+
   .box4-2{
-    width: 300px;
-    height: 300px;
-    background:#0008ff;
     float: none;
   }
 }
@@ -118,7 +90,7 @@
 .box5{
   display: flex;
   justify-content: center;
- }
+}
 
 .box5-1{
   width: 300px;
@@ -161,48 +133,7 @@
 
 @media screen and (max-width: 960px){
   .box5{
-    display: flex;
-    justify-content: center;
     flex-direction: row-reverse;
-   }
-  
-  .box5-1{
-    width: 300px;
-    height: 300px;
-    background:#ff0000;
-    position: relative;
-  }
-  
-  .box5-1 p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-  }
-  
-  .box5-2{
-    width: 300px;
-    height: 300px;
-    background:#0008ff;
-    position: relative;
-  }
-  
-  .box5-2 p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-  }
-  
-  .box5-3{
-    width: 300px;
-    height: 300px;
-    background:#ff8400;
-    position: relative;
-  }
-  
-  .box5-3 p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
   }
 }
 
@@ -251,51 +182,14 @@
 }
 
 @media screen and (max-width: 960px){
-  .box6{
-    display: flex;
-    justify-content: center;
-   }
-  
   .box6-1{
-    width: 300px;
-    height: 300px;
-    background:#00ff51;
-    position: relative;
     order: 2;
   }
-  
-  .box6-1 p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-  }
-  
   .box6-2{
-    width: 300px;
-    height: 300px;
-    background:#d4ff00;
-    position: relative;
     order: 3;
   }
-  
-  .box6-2 p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-  }
-  
   .box6-3{
-    width: 300px;
-    height: 300px;
-    background:#ff00e1;
-    position: relative;
     order: 1;
-  }
-  
-  .box6-3 p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
   }
 }
 
@@ -324,28 +218,7 @@
 }
 
 @media screen and (max-width: 960px){
-  .box7{
-    text-align: center;
-  }
-  
   .box7-1{
-    width: 300px;
-    height: 300px;
-    background:#ff0000;
-    float: left;
     visibility: hidden;
-  }
-  
-  .box7-2{
-    width: 300px;
-    height: 300px;
-    background: #00ff51;
-    float: left;
-  }
-  
-  .box7-3{
-    width: 300px;
-    height: 300px;
-    background: #0008ff;
   }
 }
